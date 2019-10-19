@@ -5,8 +5,8 @@ var gis = require('g-image-search');
 exports.run = (client, message) => {
 message.channel.send({embed: {
     color: 0xD97634,
-    title: ":tada: AllahaEmanet Aq - Discord Sunucusu",
-    url: "https://discord.gg/fqdsZPd",
+    title: ":tada: SepuLTuRa TR - Discord Sunucusu",
+    url: "https://discord.gg/7A3exbX",
     description: "İlk sponsor , bu sunucu bir çok özellik barındırıyor.",
             }});
 };
