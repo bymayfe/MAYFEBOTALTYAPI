@@ -3,13 +3,28 @@ const client = new Discord.Client();
 const ayarlar = require('./ayarlar.json');
 const chalk = require('chalk');
 const fs = require('fs');
-const Opus = require('node-opus');
-const db = require('quick.db');
 const moment = require('moment');
+const express = require("express");
+const http = require("http");
+const app = express();
+const db = require('quick.db');
+const { Client, Util } = require('discord.js');
+const path = require('path');
+const fetchVideoInfo = require('youtube-info');
+const Opus = require('node-opus');
 const googleTTS = require('google-tts-api');
 require('./util/eventLoader')(client);
+app.get("/", (request, response) => {
+  //console.log(Date.now() + " BOT Aktif.");
+  response.sendStatus(200);
+});
+app.listen(process.env.PORT);
+setInterval(() => {
+  http.get(`http://${process.env.PROJECT_DOMAIN}.glitch.me`);
+}, 1000 * 60 * 3);
 
-var prefix = ayarlar.prefix;
+var prefix = ayarlar.prefix
+
 
 const log = message => {
   console.log(`[${moment().format('YYYY-MM-DD HH:mm:ss')}] ${message}`);
