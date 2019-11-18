@@ -96,7 +96,7 @@ client.unload = command => {
   });
 };
 
-
+//////////////////////  BU ARAYA KOMUTLAR GELECEK ///////////////////////////
 
 
 
@@ -121,7 +121,7 @@ client.on('message', msg => {
 
 
 
-
+//////////////////////  BU ARAYA KOMUTLAR GELECEK ///////////////////////////
 client.elevation = message => {
   if(!message.guild) {
 	return; }
