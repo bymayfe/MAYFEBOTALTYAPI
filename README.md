@@ -6,4 +6,6 @@ MayFeBOT ALTYAPI
 
 
 [CodeAre](https://discord.gg/4jJh9MH)
+
+
 [SePuLTuRa](https://discord.gg/bprMhJh)
