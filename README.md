@@ -5,7 +5,7 @@
 [௱ΛϤFƐϦØŤ ΛŁŤϤΛþɪ](https://top.gg/bot/596071936799277116)
 
 
-[CodeAre](https://discord.gg/4jJh9MH)
+[CodeAre](https://discord.gg/FGwmYze)
 
 
 [SePuLTuRa](https://discord.gg/bprMhJh)
