@@ -12,7 +12,6 @@
   "dependencies": {
     "canvas": "^2.6.1",
     "chalk": "^2.4.2",
-    "colors": "^1.4.0",
     "discord.js": "^11.5.1",
     "express": "^4.16.4",
     "fs": "^0.0.2",
